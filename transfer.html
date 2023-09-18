@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transfer Money</title>
+</head>
+<body>
+    <h2>Transfer Money</h2>
+    <form id="transferForm">
+        <label for="sender">Select Sender:</label>
+        <select id="sender" name="sender">
+            <!-- Customers will be added dynamically here -->
+        </select>
+        <br>
+        <label for="receiver">Select Receiver:</label>
+        <select id="receiver" name="receiver">
+            <!-- Customers will be added dynamically here -->
+        </select>
+        <br>
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" required>
+        <br>
+        <input type="submit" value="Transfer">
+    </form>
+    <a href="customer.html">View All Customers</a>
+</body>
+<script src="script.js"></script>
+</html>
